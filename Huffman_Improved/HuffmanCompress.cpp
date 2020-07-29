@@ -41,6 +41,13 @@ std :: vector<uint32_t> breakNum(int counter){
 int main(int argc, char *argv[]) {
     // Handle command line arguments
 
+  /*  if (argc != 3) {
+        std::cerr << "Usage: " << argv[0] << " InputFile OutputFile" << std::endl;
+        return EXIT_FAILURE;
+    }
+    const char *inputFile  = argv[1];
+    const char *outputFile = argv[2];*/
+
     const char *inputFile  = "/home/moshse/CLionProjects/Huffmam/BST.out";
     const char *outputFile = "/home/moshse/CLionProjects/Huffmam/BST";
 
