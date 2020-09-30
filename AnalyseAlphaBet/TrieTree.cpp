@@ -9,6 +9,16 @@
 
 using namespace std;
 
+template <class T, class S, class C>
+S& Container(priority_queue<T, S, C>& q) {
+    struct HackedQueue : private priority_queue<T, S, C> {
+        static S& Container(priority_queue<T, S, C>& q) {
+            return q.*&HackedQueue::c;
+        }
+    };
+    return HackedQueue::Container(q);
+}
+
 // A Trie node
 struct Trie
 {
@@ -33,7 +43,7 @@ static int returnScore(const vector<int>& files, int level){
         sum += i;
     }
     int avg = sum/files.size();
-    return avg * level * 8;
+    return avg * level;
 }
 
 
@@ -171,31 +181,7 @@ bool search(Trie* head, char* str)
     return curr->isLeaf;
 }
 
-/*static float calculate_score(int level, int arr []){
-    float sum = 0;
-    for (int i = 0 ; i < 5 ; i ++){
-        sum+=arr[i];
-    }
-
-    return sum/5;
-}*/
-
 void traverseTree(const Trie &node){
-/*    std:: stack<trie_node> node_stack;
-    trie_node head{"", 0, 0, node};
-    node_stack.push(head);
-
-    while (!node_stack.empty()){
-        Trie trie_head = node;
-        trie_node node1 = node_stack.top();
-        node_stack.pop();
-        for (auto son : node.map)
-        {
-            trie_node curr{node1.code_word + son.first, node1.level+1 , calculate_score(node1.level + 1,
-                                                                                        son.second->files));
-            }
-        }*/
-
         stack<Trie> trie_stack;
         priority_queue<Trie, vector<Trie>, OrderByScore> trie_pq;
         Trie head(node);
@@ -217,11 +203,18 @@ void traverseTree(const Trie &node){
                 trie_pq.push(tmp);
         }
 
-        vector<Trie> top_tries;
-        for(int i = 0; i < 20; i++){
-            top_tries.push_back(trie_pq.top());
-            trie_pq.pop();
-        }
+/*        vector<Trie> &top_results = Container(trie_pq);
+        int i = 20;
+        for(const auto& trie : top_results){
+            if(i == 0)
+                break;
+            cout << "level: " << trie.level << " score: " << trie.score << endl;
+            cout << "string: " << trie.code_word << endl;
+            for(auto i : trie.files)
+                cout << i << " ";
+            cout << "\n" << endl;
+            i--;
+        }*/
     }
 
 // Memory efficient Trie Implementation in C++ using Map
@@ -233,7 +226,7 @@ void traverseTree(const Trie &node){
         int number_file = 0;
         for (const auto &file : files){
             try {
-                string input = "/Users/itaytu/CLionProjects/HuffmanCompress/files/" + file;
+                string input = "/Users/itaytu/CLionProjects/Data-Compression/files/" + file;
                 ifstream in(input, ios::binary);
                 while(true) {
                     int b = in.get();
@@ -247,7 +240,6 @@ void traverseTree(const Trie &node){
                 std :: cout << e.what() << std :: endl;
             }
 
-
             for (int i = 0 ; i < data.size() - 16 ; i ++){
                 string s = "";
                 for (int j = i; j < 16 + i ; j ++){
@@ -260,8 +252,6 @@ void traverseTree(const Trie &node){
         }
 
         traverseTree(*head);
-
-        std :: cout << "hello here ";
 
         return 0;
     }

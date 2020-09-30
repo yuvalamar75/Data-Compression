@@ -8,116 +8,82 @@
 		<Option virtualFolders="CMake Files\;"/>
 		<Build>
 			<Target title="all">
-				<Option working_dir="/home/moshse/CLionProjects/Huffman_Improved/cmake-build-debug"/>
+				<Option working_dir="/Users/itaytu/CLionProjects/Data-Compression/Huffman_Improved/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -f &quot;/home/moshse/CLionProjects/Huffman_Improved/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
-					<CompileFile command="/usr/bin/make -f &quot;/home/moshse/CLionProjects/Huffman_Improved/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -f &quot;/home/moshse/CLionProjects/Huffman_Improved/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -f &quot;/home/moshse/CLionProjects/Huffman_Improved/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="edit_cache">
-				<Option working_dir="/home/moshse/CLionProjects/Huffman_Improved/cmake-build-debug"/>
-				<Option type="4"/>
-				<MakeCommands>
-					<Build command="/usr/bin/make -f &quot;/home/moshse/CLionProjects/Huffman_Improved/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
-					<CompileFile command="/usr/bin/make -f &quot;/home/moshse/CLionProjects/Huffman_Improved/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -f &quot;/home/moshse/CLionProjects/Huffman_Improved/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -f &quot;/home/moshse/CLionProjects/Huffman_Improved/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j16 -f &quot;/Users/itaytu/CLionProjects/Data-Compression/Huffman_Improved/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j16 -f &quot;/Users/itaytu/CLionProjects/Data-Compression/Huffman_Improved/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j16 -f &quot;/Users/itaytu/CLionProjects/Data-Compression/Huffman_Improved/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j16 -f &quot;/Users/itaytu/CLionProjects/Data-Compression/Huffman_Improved/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="rebuild_cache">
-				<Option working_dir="/home/moshse/CLionProjects/Huffman_Improved/cmake-build-debug"/>
+				<Option working_dir="/Users/itaytu/CLionProjects/Data-Compression/Huffman_Improved/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -f &quot;/home/moshse/CLionProjects/Huffman_Improved/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
-					<CompileFile command="/usr/bin/make -f &quot;/home/moshse/CLionProjects/Huffman_Improved/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -f &quot;/home/moshse/CLionProjects/Huffman_Improved/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -f &quot;/home/moshse/CLionProjects/Huffman_Improved/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j16 -f &quot;/Users/itaytu/CLionProjects/Data-Compression/Huffman_Improved/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j16 -f &quot;/Users/itaytu/CLionProjects/Data-Compression/Huffman_Improved/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j16 -f &quot;/Users/itaytu/CLionProjects/Data-Compression/Huffman_Improved/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j16 -f &quot;/Users/itaytu/CLionProjects/Data-Compression/Huffman_Improved/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/Users/itaytu/CLionProjects/Data-Compression/Huffman_Improved/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j16 -f &quot;/Users/itaytu/CLionProjects/Data-Compression/Huffman_Improved/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j16 -f &quot;/Users/itaytu/CLionProjects/Data-Compression/Huffman_Improved/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j16 -f &quot;/Users/itaytu/CLionProjects/Data-Compression/Huffman_Improved/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j16 -f &quot;/Users/itaytu/CLionProjects/Data-Compression/Huffman_Improved/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="Huffman_Improved">
-				<Option output="/home/moshse/CLionProjects/Huffman_Improved/cmake-build-debug/Huffman_Improved" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/moshse/CLionProjects/Huffman_Improved/cmake-build-debug"/>
+				<Option output="/Users/itaytu/CLionProjects/Data-Compression/Huffman_Improved/cmake-build-debug/Huffman_Improved" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/itaytu/CLionProjects/Data-Compression/Huffman_Improved/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="/usr/include/c++/7"/>
-					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
-					<Add directory="/usr/include/c++/7/backward"/>
-					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
 					<Add directory="/usr/local/include"/>
-					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
-					<Add directory="/usr/include/x86_64-linux-gnu"/>
-					<Add directory="/usr/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/11.0.3/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -f &quot;/home/moshse/CLionProjects/Huffman_Improved/cmake-build-debug/Makefile&quot;  VERBOSE=1 Huffman_Improved"/>
-					<CompileFile command="/usr/bin/make -f &quot;/home/moshse/CLionProjects/Huffman_Improved/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -f &quot;/home/moshse/CLionProjects/Huffman_Improved/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -f &quot;/home/moshse/CLionProjects/Huffman_Improved/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j16 -f &quot;/Users/itaytu/CLionProjects/Data-Compression/Huffman_Improved/cmake-build-debug/Makefile&quot;  VERBOSE=1 Huffman_Improved"/>
+					<CompileFile command="/usr/bin/make -j16 -f &quot;/Users/itaytu/CLionProjects/Data-Compression/Huffman_Improved/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j16 -f &quot;/Users/itaytu/CLionProjects/Data-Compression/Huffman_Improved/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j16 -f &quot;/Users/itaytu/CLionProjects/Data-Compression/Huffman_Improved/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="Huffman_Improved/fast">
-				<Option output="/home/moshse/CLionProjects/Huffman_Improved/cmake-build-debug/Huffman_Improved" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/moshse/CLionProjects/Huffman_Improved/cmake-build-debug"/>
+				<Option output="/Users/itaytu/CLionProjects/Data-Compression/Huffman_Improved/cmake-build-debug/Huffman_Improved" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/itaytu/CLionProjects/Data-Compression/Huffman_Improved/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="/usr/include/c++/7"/>
-					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
-					<Add directory="/usr/include/c++/7/backward"/>
-					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
 					<Add directory="/usr/local/include"/>
-					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
-					<Add directory="/usr/include/x86_64-linux-gnu"/>
-					<Add directory="/usr/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/11.0.3/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -f &quot;/home/moshse/CLionProjects/Huffman_Improved/cmake-build-debug/Makefile&quot;  VERBOSE=1 Huffman_Improved/fast"/>
-					<CompileFile command="/usr/bin/make -f &quot;/home/moshse/CLionProjects/Huffman_Improved/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -f &quot;/home/moshse/CLionProjects/Huffman_Improved/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -f &quot;/home/moshse/CLionProjects/Huffman_Improved/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j16 -f &quot;/Users/itaytu/CLionProjects/Data-Compression/Huffman_Improved/cmake-build-debug/Makefile&quot;  VERBOSE=1 Huffman_Improved/fast"/>
+					<CompileFile command="/usr/bin/make -j16 -f &quot;/Users/itaytu/CLionProjects/Data-Compression/Huffman_Improved/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j16 -f &quot;/Users/itaytu/CLionProjects/Data-Compression/Huffman_Improved/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j16 -f &quot;/Users/itaytu/CLionProjects/Data-Compression/Huffman_Improved/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/home/moshse/CLionProjects/Huffman_Improved/BitIoStream.cpp">
+		<Unit filename="/Users/itaytu/CLionProjects/Data-Compression/AnalyseAlphaBet/TrieTree.cpp">
 			<Option target="Huffman_Improved"/>
 		</Unit>
-		<Unit filename="/home/moshse/CLionProjects/Huffman_Improved/BitIoStream.hpp">
-			<Option target="Huffman_Improved"/>
-		</Unit>
-		<Unit filename="/home/moshse/CLionProjects/Huffman_Improved/CanonicalCode.cpp">
-			<Option target="Huffman_Improved"/>
-		</Unit>
-		<Unit filename="/home/moshse/CLionProjects/Huffman_Improved/CanonicalCode.hpp">
-			<Option target="Huffman_Improved"/>
-		</Unit>
-		<Unit filename="/home/moshse/CLionProjects/Huffman_Improved/CodeTree.cpp">
-			<Option target="Huffman_Improved"/>
-		</Unit>
-		<Unit filename="/home/moshse/CLionProjects/Huffman_Improved/CodeTree.hpp">
-			<Option target="Huffman_Improved"/>
-		</Unit>
-		<Unit filename="/home/moshse/CLionProjects/Huffman_Improved/FrequencyTable.cpp">
-			<Option target="Huffman_Improved"/>
-		</Unit>
-		<Unit filename="/home/moshse/CLionProjects/Huffman_Improved/FrequencyTable.hpp">
-			<Option target="Huffman_Improved"/>
-		</Unit>
-		<Unit filename="/home/moshse/CLionProjects/Huffman_Improved/HuffmanCoder.cpp">
-			<Option target="Huffman_Improved"/>
-		</Unit>
-		<Unit filename="/home/moshse/CLionProjects/Huffman_Improved/HuffmanCoder.hpp">
-			<Option target="Huffman_Improved"/>
-		</Unit>
-		<Unit filename="/home/moshse/CLionProjects/Huffman_Improved/HuffmanCompress.cpp">
-			<Option target="Huffman_Improved"/>
-		</Unit>
-		<Unit filename="/home/moshse/CLionProjects/Huffman_Improved/CMakeLists.txt">
+		<Unit filename="/Users/itaytu/CLionProjects/Data-Compression/Huffman_Improved/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>
 	</Project>
