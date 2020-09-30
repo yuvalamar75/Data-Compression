@@ -4,14 +4,9 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/moshse/CLionProjects/Huffman_Improved/BitIoStream.cpp" "/home/moshse/CLionProjects/Huffman_Improved/cmake-build-debug/CMakeFiles/Huffman_Improved.dir/BitIoStream.cpp.o"
-  "/home/moshse/CLionProjects/Huffman_Improved/CanonicalCode.cpp" "/home/moshse/CLionProjects/Huffman_Improved/cmake-build-debug/CMakeFiles/Huffman_Improved.dir/CanonicalCode.cpp.o"
-  "/home/moshse/CLionProjects/Huffman_Improved/CodeTree.cpp" "/home/moshse/CLionProjects/Huffman_Improved/cmake-build-debug/CMakeFiles/Huffman_Improved.dir/CodeTree.cpp.o"
-  "/home/moshse/CLionProjects/Huffman_Improved/FrequencyTable.cpp" "/home/moshse/CLionProjects/Huffman_Improved/cmake-build-debug/CMakeFiles/Huffman_Improved.dir/FrequencyTable.cpp.o"
-  "/home/moshse/CLionProjects/Huffman_Improved/HuffmanCoder.cpp" "/home/moshse/CLionProjects/Huffman_Improved/cmake-build-debug/CMakeFiles/Huffman_Improved.dir/HuffmanCoder.cpp.o"
-  "/home/moshse/CLionProjects/Huffman_Improved/HuffmanCompress.cpp" "/home/moshse/CLionProjects/Huffman_Improved/cmake-build-debug/CMakeFiles/Huffman_Improved.dir/HuffmanCompress.cpp.o"
+  "/Users/itaytu/CLionProjects/Data-Compression/AnalyseAlphaBet/TrieTree.cpp" "/Users/itaytu/CLionProjects/Data-Compression/Huffman_Improved/cmake-build-debug/CMakeFiles/Huffman_Improved.dir/Users/itaytu/CLionProjects/Data-Compression/AnalyseAlphaBet/TrieTree.cpp.o"
   )
-set(CMAKE_CXX_COMPILER_ID "GNU")
+set(CMAKE_CXX_COMPILER_ID "AppleClang")
 
 # The include file search paths:
 set(CMAKE_CXX_TARGET_INCLUDE_PATH

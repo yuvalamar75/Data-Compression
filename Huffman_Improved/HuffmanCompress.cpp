@@ -54,8 +54,9 @@ int main(int argc, char *argv[]) {
     // Read input file once to compute symbol frequencies.
     // The resulting generated code is optimal for static Huffman coding and also canonical.
     std::ifstream in(inputFile, std::ios::binary);
-    FrequencyTable freqs(std::vector<uint32_t>(321, 0)); // add 2^32 0 00 0000 00000000 ..
+    FrequencyTable freqs(std::vector<uint32_t>(322, 0)); // add 2^32 0 00 0000 00000000 ..
     uint32_t null_counter  = 0;
+    std::string[] list_of_strings = {"_ZStlsISt11char_traitsIcEERSt13basic_ostreamIcT_ES5_PK"};
     while (true) {
         int b = in.get();
         if (b == EOF)
