@@ -87,6 +87,11 @@ int main(int argc, char *argv[]) {
             }
         }
     }
+    // we read a:
+        // check if a is substr of word in the dic
+        //if yes:: continute read
+        // if no: check if "..." + a is in dic
+        // if no
     freqs.increment(256);  // EOF symbol gets a frequency of 1
     CodeTree code = freqs.buildCodeTree();
     const CanonicalCode canonCode(code, freqs.getSymbolLimit());
